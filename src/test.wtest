@@ -1,0 +1,9 @@
+import objetos.*
+
+test "todos pueden ir al spa" {
+	spa.atender(ramiro)
+	spa.atender(olivia)
+	spa.atender(bruno)
+	bruno.tomarAgua()
+	assert.that(bruno.estaPerfecto())
+}

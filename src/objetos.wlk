@@ -50,7 +50,8 @@ object bruno{
 	}
 	
 	method estaPerfecto(){
-		return (felicidad and sed and peso.between(50, 70))
+		return (felicidad and not sed and peso.between(50000, 70000))
+
 	}
 	
 	method mediodiaEnCasa(){
